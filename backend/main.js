@@ -29,7 +29,10 @@ let server = net.createServer((socket) => {
         } else {
             socket.write('ERROR\r\n');
         }
-    })
+    });
+    socket.on('error', () => {
+        console.log("Connection error occoured.")
+    });
 });
 
 server.listen(7906, '0.0.0.0');
