@@ -1,0 +1,29 @@
+{
+  "name": "homepad",
+  "version": "1.0.0",
+  "description": "Backend for HomePad",
+  "main": "main.js",
+  "scripts": {
+    "run": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strifel/HomePad.git"
+  },
+  "keywords": [
+    "homepad",
+    "esp",
+    "smarthome",
+    "iot"
+  ],
+  "author": "strifel <info@strifel.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strifel/HomePad/issues"
+  },
+  "homepage": "https://github.com/strifel/HomePad#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
